@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.esporte{
+    width: 1300px;
+    height:  450px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    border-radius: 7px;
+}
+.esporte > a > img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 70px 52px 70px 52px;
+    width: 500px;
+    height: 300px;
+}
+.esporte-cont{
+    width: 600px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-direction:  column;
+    text-align: start;
+}
+.esporte-cont > h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+    order: 1;
+}
+.esporte-cont > p{
+    order: 2;
+}
+.esporte-cont > aside{
+     order: 3;
+}

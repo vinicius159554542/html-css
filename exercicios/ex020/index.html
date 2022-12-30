@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Pseudo Classes</title>
+    <style>
+           div{
+                  width: 125px;
+           }
+           div > p {
+                  display : none;
+           }
+           .p2 {
+                  display: none;
+           }
+           .p2:hover{
+                  display: block;
+           }
+           div:hover > p{
+                  display: block;
+                  width: 150px;
+           }
+           div:hover{
+                  color: blueviolet;
+           } 
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de pseudo classe</h1>
+
+        <p>passe o mouse no texto abaixo</p>
+
+           <div>
+                Passe o mouse aqui
+                <p><img src="277750901_135178985719442_2400490476479290882_n.jpg" alt="Luffy"></p>
+                <p class="p2" >Fim do Teste</p>
+           </div>
+
+</body>
+</html>

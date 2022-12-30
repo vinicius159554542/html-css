@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="stylesheet" href="estilos-css.css/horta.css">
+    <link rel="stylesheet" href="estilos-css.css/esporte.css">
+    <link rel="stylesheet" href="estilos-css.css/noticias.css">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:white;
+            margin: 0px;
+            color: #324759;
+            
+        }
+        
+        header{
+            background-color:#F3E0BE;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.342); 
+            margin: 0px;
+            padding: 1px;
+        }
+
+        header> h1{
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        nav{
+            margin: 0px;
+            background-color: #F3E0BE;
+        }
+
+        nav > div{
+            width: 70px;
+            height: 50px;
+            background-color: #F3E0BE;
+            font-size: 28px;
+            margin-left: 10px;
+        }
+
+        nav > div > div{
+            width: 110px;
+            height: 210px;
+            font-size: 15px;
+            display: none;
+            
+        } 
+
+        nav > div:hover >div{
+            width: 70px;
+            height: 160px;
+            text-decoration: none;
+            display: block;
+        }
+
+        div > div > p {
+            width: 110px;
+            height: 210px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            font-size: 18px;
+            background-color: #3D3D3D;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.158);
+        }
+
+        div > div > p > a {
+            width: 90px;
+            height: 75px;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        div > div > p > a:hover{
+            color: rgb(255, 1, 1);
+        }
+
+        article{
+            background-color:white;
+            padding: 5px;
+            box-shadow: 3px 3px 6px rgb(218, 218, 218);
+        }
+
+        article > h1{
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 25px;
+        }
+
+        article > p{
+            font-family: 'EB Garamond', serif;
+        }
+
+        img{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+        }
+
+        aside > a{
+            text-decoration: none;
+            color: rgb(90, 90, 90);
+        }
+
+        aside > a:hover{
+              color: red;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 9px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+        <header>
+            <h1>
+                Jornal hoje 
+            </h1>
+            <nav>
+                <div>
+                    
+                     Menu
+                    
+                     <div>
+                            <p>
+                                <a href="https://blog.quintadellarte.com.br/horta-em-casa-como-fazer-e-quais-os-cuidados-necessarios/">Horta Comunitaria</a>
+                                <a href="https://jovempan.com.br/esportes/futebol/palmeiras/flamengo-x-palmeiras-assista-a-transmissao-da-jovem-pan-ao-vivo.html">Flamengo X Palmeras</a>
+                                <a href="https://www.youtube.com/watch?v=f-IMBVJJ1bc&ab_channel=UOL">Últimas Notícias</a>
+                            </p>
+                     </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section >
+               
+                <article class="horta">
+                    <a href="https://blog.quintadellarte.com.br/horta-em-casa-como-fazer-e-quais-os-cuidados-necessarios/" target="_blank">
+                        
+                            <img src="https://blog.quintadellarte.com.br/wp-content/uploads/2017/07/horta-em-casa-como-fazer-e-quais-os-cuidados-necessarios-1280x720.jpeg" alt="" srcset="">
+                        
+                    </a>
+
+                    <div class="horta-conteudo">
+
+                        <h1>
+                            Horta Comunitaria
+                        </h1>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate amet dolorem, facere, itaque, nulla laudantium corrupti enim consequatur aspernatur inventore. Architecto voluptates incidunt voluptate ab ullam quam impedit eveniet.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda quisquam perferendis. Voluptatum ratione cumque, porro quos fugit reiciendis assumenda! Obcaecati ipsam, dolorum repellat ex repellendus incidunt in reprehenderit laudantium?
+                        </p>
+                         <aside>
+                            Fonte: <a href="#">Diario da Vida</a>
+                        </aside>
+
+                    </div>
+
+                </article>
+            </section>
+            <section >
+                <article class="esporte" >
+                    <a href="https://jovempan.com.br/esportes/futebol/palmeiras/flamengo-x-palmeiras-assista-a-transmissao-da-jovem-pan-ao-vivo.html" target="_blank"><img src="https://jpimg.com.br/uploads/2021/01/thumb_flamengo_x_palmeiras_easy-resize.com_.jpg" alt="" srcset=""></a>
+
+                    <div class="esporte-cont">
+                        <h1>
+                            Palmeras x Flamengo
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti nam qui rerum quia praesentium eum odio, laudantium ipsum totam rem! Saepe rem harum veniam ipsa, magni omnis nesciunt facilis?
+                            Dolorem, magni corrupti voluptates neque, soluta aperiam illo accusamus assumenda, officia ad asperiores minus voluptas quidem esse! Nisi quibusdam doloribus optio provident impedit nam, architecto, rerum aliquam fugit pariatur hic.
+                        </p>
+                         <aside>
+                            Fonte: <a href="#">G1 Esportes</a>
+                        </aside>
+                    </div>
+                </article>
+            </section>
+            <section >
+                <article class="noticias">
+                    <a href="https://www.youtube.com/watch?v=f-IMBVJJ1bc&ab_channel=UOL" target="_blank"><img src="https://i.ytimg.com/vi/f-IMBVJJ1bc/maxresdefault.jpg" alt="" srcset=""></a>
+                    <div class="noticias-cont">
+                        <h1>
+                            Últimas Notícias
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti nam qui rerum quia praesentium eum odio, laudantium ipsum totam rem! Saepe rem harum veniam ipsa, magni omnis nesciunt facilis?
+                            Dolorem, magni corrupti voluptates neque, soluta aperiam illo accusamus assumenda, officia ad asperiores minus voluptas quidem esse! Nisi quibusdam doloribus optio provident impedit nam, architecto, rerum aliquam fugit pariatur hic.
+                            Doloribus voluptates voluptatum eos, quas commodi, molestiae cupiditate ea repellendus, provident architecto aut. Deleniti illo accusamus, iusto minus corporis debitis, dolorem ea, quisquam nam dolor dignissimos id officia ducimus. Enim.
+                        </p>
+                        <aside>
+                            Fonte: <a href="#">G1 Notícias</a>
+                        </aside>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Desenvolvido Por Vinxz
+            </p>
+        </footer>
+</body>
+</html>
